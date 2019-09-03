@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <!-- include the viewport in html -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About Me</title>
-  <!-- reset css -->
+  <title>Contact</title>
+    <!-- reset css -->
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <!-- style css -->
+    <!-- style css -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-  <!-- start of navbar -->
+    <!-- start of navbar -->
   <header id="mainhead">
     <div class="container">
       <a href="index.html" id="logo">Yi Nick Ying</a>
@@ -22,19 +22,31 @@
         </nav>
     </div>
   </header>
-  <!-- end of navbar -->
+    <!-- end of navbar -->
 <!-- start of main section -->
 <div class="content1">
   <div id="main-container" class="container">
     <section class="main-section">
-      <h1>About Me</h1>
-          <img src="assets/images/nickying.jpg" class="p-image" alt="about me">
-          <p>
-              My name is Nick Ying. I have been lived in the Seattle metro area for 10 years. I currently live with my wife and 3 years old daughter in Everett. Every day is a new adventure for me. Especially with my 3 years old daughter, she makes me laugh every day. In the meantime, she makes our life tougher. My wife and I enjoy it.
-          </p>
-          <P>
-              I am currently a student in UW’s Coding Bootcamp in Seattle. Before this, I have a little knowledge of C++ and HTML. I want to be a full-stack web developer when I finish this Bootcamp Class. In my spare time, I like hiking, biking, traveling and finding a new restaurant to try new food. I love our Seattle sports teams, Seahawks and Sounders. Go Hawks!!!
-          </P>         
+      <h1>Contact</h1>   
+      
+      <form>
+        <ul>
+            <li>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Your Name" required="required">
+            </li>
+            <li>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="youremail@gmail.com" required="required">
+            </li>
+            <li>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your feedback will help me to succeed in my future career. Thank you!" required="required"></textarea>
+            </li>
+        </ul>
+        <input type="submit" name="Submit">
+      </form>
+      
     </section>
   </div> 
 </div>
@@ -48,6 +60,5 @@
         <a href="tel:+1425-954-3208">(425)954-3208</a>
     </div>
 </footer>
-<!-- end of footer -->
 </body>
 </html>
